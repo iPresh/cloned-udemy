@@ -85,3 +85,26 @@ background-color: black;
 .sign-up > span{
     color: white;
 }
+
+.hero{
+    position: relative;
+}
+
+.hero-content{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    padding: 25px;
+    max-width: 450px;
+}
+
+.hero-content h1{
+    margin: 8px;
+    font-size: 35px;
+}
+
+.hero-content p{
+    font-size: 20px;
+}
