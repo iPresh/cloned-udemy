@@ -24,6 +24,10 @@ header {
     width: 120px;
 }
 
+.class-options{
+    margin: 30px;
+}
+
 .class-search {
     display:flex;
     flex: 1;
@@ -40,5 +44,27 @@ header {
 }
 
 .class-search > input {
-    
+ width: 50%;   
+ outline: none;
+ border: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.class-others{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+    color: rgb(148, 109, 109);
+    cursor: pointer;
+}
+
+.class-others > span{
+    color: black;
+    font-size: 17px;
+    font-weight: 100;
 }
