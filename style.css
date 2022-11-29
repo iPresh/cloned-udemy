@@ -10,6 +10,8 @@
 }
 
 header {
+    margin-left: 10px;
+    margin-right: 10px;
     height: 80%;
     width: 100%;
     display: flex;
@@ -19,6 +21,7 @@ header {
     top: 0;
     z-index: 1000;
 }
+
 
 .logo{
     width: 120px;
@@ -67,4 +70,18 @@ nav{
     color: black;
     font-size: 17px;
     font-weight: 100;
+}
+
+.register {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.sign-up{
+padding: 8px;
+background-color: black;
+}
+
+.sign-up > span{
+    color: white;
 }
