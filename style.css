@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
- header img{
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+
+header img{
  width: 1cm;
  height: 2cm;
 }
@@ -108,3 +116,42 @@ background-color: black;
 .hero-content p{
     font-size: 20px;
 }
+
+.intro{
+    margin-top: 25px;
+    margin-bottom: 12px;
+    padding: 30px;
+}
+
+.intro h1, p{
+    margin-bottom: 8px;
+}
+
+ul{
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.courses li{
+    display:inline;
+    padding-right: 10px;
+}
+
+.courses li a{
+   color: rgb(61, 56, 56);
+   font-weight: bolder;
+}
+
+.courses-intro h2{
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 1.25;
+    letter-spacing: -.05rem;
+    margin-bottom: 20px;
+}
+
