@@ -168,11 +168,38 @@ a {
     padding-bottom: 10px;
 }
 
-.blurb {
+.blurb, .containers{
     padding: 30px;
+}
+
+.blurb > p{
+    font-size: normal;
+    font-weight: lighter;
+    line-height: 25px;
 }
 
 .btn-one{
     background-color: white;
     padding: 10px 16px;
+    color: black;
+}
+
+.container-one{
+    max-width: 15rem;
+    margin-right: 14px;
+    overflow: hidden;
+}
+
+.containers{
+    display:flex;
+
+}
+
+.img-two{
+    border: 1px solid grey;
+}
+
+.course-content > p{
+    font-size: 12px;
+    padding-top: 5px;
 }
